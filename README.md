@@ -6,7 +6,7 @@
 
 **The Core Automation Backbone for [WisdomFirm](https://github.com/WisdomFirm).**
 
-**FMS (Flow Management System)** is a modular, config-driven Python framework designed to orchestrate internal workflows, automate administrative tasks, and manage AI agent pipelines. It serves as the foundational "Operating System" for WisdomFirm's automated business logic.
+**FMS (Firm Management System)** is a modular, config-driven Python framework designed to orchestrate internal workflows, automate administrative tasks, and manage AI agent pipelines. It serves as the foundational "Operating System" for WisdomFirm's automated business logic.
 
 ---
 
