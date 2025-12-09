@@ -22,6 +22,8 @@
 ## 📂 Project Structure
 
 ```text
+
+
 fms-framework/
 ├── config/
 │   └── settings.yaml      # Central Configuration
@@ -33,57 +35,67 @@ fms-framework/
 │   └── timesheet.py       # Time Logging Module
 ├── main.py                # Entry Point
 └── requirements.txt       # Dependencies
-🛠️ Installation & Usage
-1. Prerequisites
-Python 3.8 or higher
+```
+## 🛠️ Installation & Usage
 
-2. Installation
+### 1. Prerequisites
+* Python 3.8 or higher
+
+### 2. Installation
 Clone the repository and install dependencies:
 
-Bash
-
+```bash
 git clone [https://github.com/WisdomFirm/fms-framework.git](https://github.com/WisdomFirm/fms-framework.git)
 cd fms-framework
 pip install -r requirements.txt
-3. Configuration
-Edit config/settings.yaml to define which modules to run:
+```
+### 3. Configuration
+Edit `config/settings.yaml` to define which modules to run:
 
-YAML
-
+```yaml
 app_name: "WisdomFirm FMS Core"
 tasks:
   - "system_monitor"
   - "timesheet"
-4. Run the Engine
+
+```
+### 4. Run the Engine
 Execute the main script to start the automation pipeline:
 
-Bash
-
+```bash
 python main.py
-📦 Built-in Modules
-1. System Monitor (system_monitor)
+
+```
+## 📦 Built-in Modules
+
+### 1. System Monitor (`system_monitor`)
 Analyzes the host infrastructure to ensure the environment is ready for automation tasks.
+* **Checks:** OS Version, Processor Architecture, Python Runtime.
 
-Checks: OS Version, Processor Architecture, Python Runtime.
-
-2. TimeSheet Logger (timesheet)
+### 2. TimeSheet Logger (`timesheet`)
 Automatically logs the session start time and user identity.
+* **Output:** Generates/Updates `timesheet_data.csv`.
+* **Fields:** Timestamp, User, Action, Status.
 
-Output: Generates/Updates timesheet_data.csv.
+---
 
-Fields: Timestamp, User, Action, Status.
+## 🔮 Roadmap
 
-🔮 Roadmap
-[ ] AI Connector Module: Integration with Google Gemini Pro API.
+* [ ] **AI Connector Module:** Integration with Google Gemini Pro API.
+* [ ] **SEO Auto-Generator:** Automated content structure generation.
+* [ ] **Notification Service:** Line Notify integration for task completion alerts.
 
-[ ] SEO Auto-Generator: Automated content structure generation.
+---
 
-[ ] Notification Service: Line Notify integration for task completion alerts.
+## 📄 License
 
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-<p align="center"> Built with ❤️ by <strong>WisdomFirm Team</strong>
+---
+<p align="center">
+  Built with ❤️ by <strong>WisdomFirm Team</strong><br>
+  <em>Innovating Education & Business through AI Automation.</em>
+</p>
 
 
-<em>Innovating Education & Business through AI Automation.</em> </p>
+
