@@ -1,12 +1,17 @@
 # FMS Framework 🏗️
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![Status](https://img.shields.io/badge/status-active-success.svg)
+![Version](https://img.shields.io/badge/version-0.2.0-blue.svg)
+![Status](https://img.shields.io/badge/status-pre--release-yellow.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 **The Core Automation Backbone for [WisdomFirm](https://github.com/WisdomFirm).**
 
-**FMS (Firm Management System)** is a modular, config-driven Python framework designed to orchestrate internal workflows, automate administrative tasks, and manage AI agent pipelines. It serves as the foundational "Operating System" for WisdomFirm's automated business logic.
+**FMS (Flow Management System)** is a modular, config-driven Python framework designed to orchestrate internal workflows, automate administrative tasks, and manage AI agent pipelines. It serves as the foundational "Operating System" for WisdomFirm's automated business logic.
+
+---
+
+## ⚠️ Pre-Release Notice
+This project is currently in active development (`v0.2.0`). Features are subject to change, and stability is not guaranteed. It is intended for testing and development purposes only.
 
 ---
 
@@ -22,9 +27,8 @@
 ## 📂 Project Structure
 
 ```text
-
-
 fms-framework/
+├── .github/                 # Workflow (CI/CD) and Issue Templates
 ├── config/
 │   └── settings.yaml      # Central Configuration
 ├── core/
